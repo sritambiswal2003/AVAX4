@@ -18,17 +18,17 @@ Your primary objectives in this project include:
 - Integrating the token into the game's ecosystem, enabling players to use earned tokens for in-game store purchases.
 - Implementing a secure and efficient trading system that enables players to exchange tokens with each other.
 
-Getting Started
+## Getting Started
 
-## Executing program
+Executing program
 
 Add your private key and Snowtrace API inside the hardhat.config.js file.
 
-Inside the project directory, in the terminal type: npm i
-Open two additional terminals in your VS code
-In the second terminal type: npx hardhat node
-In the third terminal, type: npx hardhat run scripts/deploy.js --network fuji
-To verify the smart contract run: npx hardhat verify <Contract Address> --network fuji
+(1).Inside the project directory, in the terminal type: npm i
+(2).Open two additional terminals in your VS code
+(3).In the second terminal type: npx hardhat node
+(4).In the third terminal, type: npx hardhat run scripts/deploy.js --network fuji
+(5).To verify the smart contract run: npx hardhat verify <Contract Address> --network fuji
 
 ## Authors
 
