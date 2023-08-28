@@ -19,4 +19,4 @@ _Add your private key and Snowtrace API inside the **hardhat.config.js** file._
 
 ## Authors
 
-Indranil Chutia  
+Sritam Biswal
