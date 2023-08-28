@@ -7,8 +7,6 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "hardhat/console.sol";
 
 contract DegenToken is ERC20, ERC20Burnable, Ownable {
-    constructor() ERC20("DEGEN", "DGN") {}
-
     // Event emitted when NFT is successfully redeemed
     event NftRedeemed(address indexed redeemer, string nftName, uint256 price);
 
